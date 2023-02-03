@@ -1,0 +1,199 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+*{
+    margin: 0;
+}
+body{   
+/* overflow-y: hidden;  Hide vertical scrollbar */
+overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+nav{
+    margin: 0;
+    padding: 10px 10px;
+    background-color: rgb(54, 49, 49);
+    height:23px;
+    position:sticky;
+    top :0;
+}
+Nav a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+Nav a:hover{
+    background-color: rgb(252, 244, 244);
+    color: black;
+}
+.main{
+    height: 2500px;
+    background-color: lightgrey;
+    
+}
+.imagefront{
+    height: 555px;
+    width: 1520px;
+}
+.Heading_first{
+    position:absolute;
+    top: 28%;
+    left:28%;
+    font-size: 130px;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 4px 3px black;
+    backdrop-filter: blur(10px); /*to blur text bg*/
+    border-radius: 20px;
+}
+.sometxt{
+    padding: 20px 20px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    background-color: lightgrey;
+    width: 1482px;
+}
+.Discount img{
+    height: 700px;
+    width: 1520px;
+    margin-top: 0
+}
+.Popular{
+    color:white;
+    padding: 25px;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+    background-color: rgb(54, 49, 49);
+    width: 1520px;
+}
+.item{
+        width:100%px;
+        text-align:center;
+        background-color: rgb(217, 217, 217);
+        border: 2px solid white;
+        float:left;
+        margin-bottom: 10px;
+        margin-top: 0;
+}       
+.item img{
+    height: 250px;
+    width: 250px;
+    border: 1px solid transparent;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+.item p{
+    text-align: center;
+    padding-bottom: 10px;
+    height: 35px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(255, 51, 0);
+}
+.item a{
+    text-decoration: none;
+    color: black;
+}
+.item a:hover{
+    color: rgb(255, 51, 0);
+}
+.item a:visited{
+    color: rgb(255, 51, 0);
+}
+.item:hover{
+    border: 2px solid darkgray;
+    background-color: white;
+}
+#index-gallery{
+    width: 1482px;
+    margin-left: 0px;
+    padding-left: 50px;
+    padding-right: 45px;
+}
+.po_button{
+    margin-top: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 250px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    background-color:  rgb(255, 51, 0);
+    color: white;
+    border: 8px solid black;
+    
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+footer {
+    background-color: black;
+    height: auto;
+    width: 100vw;
+    font-family: open sans-serif;
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Staatliches', cursive;
+    text-transform: capitalize;
+    line-height: 3rem;
+    margin-left: 37px;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    list-style: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    font-size: 1.1rem;
+}
+.socials a:hover{
+    color: aqua;
+}
+.footer-bottom{
+    background-color: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 12px;
+    word-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 0;
+}
